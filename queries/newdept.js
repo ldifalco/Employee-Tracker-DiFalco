@@ -1,7 +1,7 @@
 const inquirer = require('inquirer');
 const connect = require('../db/connection');
-
-const newDept = [
+//prompt for creating a new dept
+const newDeptPrompts = [
     {
         type: 'input',
         message: 'Enter new department name',
@@ -12,7 +12,7 @@ const newDept = [
 
 const addDept = () => {
     inquirer
-    .prompt(newDept)
+    .prompt(newDeptPrompts)
 }
 
 module.exports = addDept
