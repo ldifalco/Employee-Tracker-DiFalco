@@ -1,11 +1,12 @@
 const inquirer = require('inquirer');
-// const viewDepartments = require('./viewDepartments');
-// const viewRoles = require("./viewRoles");
-// const viewEmployees = require('./viewEmployee')
+const viewDepartments = require('./viewDepartment');
+const viewRoles = require("./viewRole");
+const viewEmployees = require('./viewEmployee')
 const addDept = require('./newDept');
 const addRole = require('./newRole');
 const addEmployee = require('./newEmployee');
-// const updateEmployee = require("./updateEmployee");
+const updateEmployee = require("./updateEmployee");
+
 
 const startList = [
     {

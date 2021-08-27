@@ -13,6 +13,7 @@ const newDeptPrompts = [
 const addDept = () => {
     inquirer
     .prompt(newDeptPrompts)
+    
 }
 
 module.exports = addDept
